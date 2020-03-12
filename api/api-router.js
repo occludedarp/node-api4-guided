@@ -7,6 +7,8 @@ const router = express.Router();
 router.use(express.json());
 
 router.get('/', (req, res) => {
+  const environment = process;
+  const PORT = process.env.PORT || 5000; //dear server, if you dont have a inherent process.env.port you use 5000
   res.status(200).json({ api: 'up' });
 });
 
