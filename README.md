@@ -36,4 +36,6 @@ Production
 -continuous deployment
 code --> commit&push --> heroku deploys
                       ^this is the process we set up
-4.)
+4.) deploy on heroku
+5.) remember that you have a local git folder that stages changes
+6.) the local folder gets connected to upstream gitfolder
