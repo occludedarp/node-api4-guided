@@ -1,3 +1,6 @@
+require('dotenv').config();
+ //read from a .env file located in the root of the project
+ //this merges the key/value pairs from the env file to process
 const server = require('./api/server.js');
 
 //you do not need to set the port locally on your computer
