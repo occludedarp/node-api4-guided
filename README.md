@@ -39,3 +39,12 @@ code --> commit&push --> heroku deploys
 4.) deploy on heroku
 5.) remember that you have a local git folder that stages changes
 6.) the local folder gets connected to upstream gitfolder
+
+7.) we added a message of the day on the api router in the get
+
+8.) installed dotenv
+
+9.) execute require(dotenv).config in index
+and the library reads will automaticaly read from an env file 
+
+10.) we create an env file
